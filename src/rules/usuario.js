@@ -81,7 +81,7 @@ module.exports = {
 
             db.getConn().query(sql, (err, result) => {
                 if (err) throw err;
-                resolve(`Usuario ${idUsuario} excluída com sucesso`);
+                resolve(`Usuario ${idUsuario} excluído com sucesso`);
             });
         });
     }
