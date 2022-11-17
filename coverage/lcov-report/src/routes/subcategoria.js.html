@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">28.12% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>9/32</span>
+                <span class='fraction'>32/32</span>
             </div>
         
             
@@ -37,16 +37,16 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>0/5</span>
+                <span class='fraction'>5/5</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">28.12% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>9/32</span>
+                <span class='fraction'>32/32</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line low'></div>
+    <div class='status-line high'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -112,41 +112,41 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span></td><td class="text"><pre class="prettyprint lang-js">const express = require("express");
@@ -154,42 +154,42 @@ const router = express.Router();
 &nbsp;
 const subcategoriaRules = require("../rules/subcategoria");
 &nbsp;
-router.get("/:idEmpresa/:idCategoria", <span class="fstat-no" title="function not covered" >as</span>ync (req, res) =&gt; {
-    const idEmpresa = <span class="cstat-no" title="statement not covered" >+req.params.idEmpresa;</span>
-    const idCategoria = <span class="cstat-no" title="statement not covered" >+req.params.idCategoria;</span>
-    const arr = <span class="cstat-no" title="statement not covered" >await subcategoriaRules.get(idEmpresa, idCategoria);</span>
-<span class="cstat-no" title="statement not covered" >    return res.json(arr);</span>
+router.get("/:idEmpresa/:idCategoria", async (req, res) =&gt; {
+    const idEmpresa = +req.params.idEmpresa;
+    const idCategoria = +req.params.idCategoria;
+    const arr = await subcategoriaRules.get(idEmpresa, idCategoria);
+    return res.json(arr);
 });
 &nbsp;
-router.get("/:idEmpresa/:idCategoria/:idSubCategoria", <span class="fstat-no" title="function not covered" >as</span>ync (req, res) =&gt; {
-    const idEmpresa = <span class="cstat-no" title="statement not covered" >+req.params.idEmpresa;</span>
-    const idCategoria = <span class="cstat-no" title="statement not covered" >+req.params.idCategoria;</span>
-    const idSubCategoria = <span class="cstat-no" title="statement not covered" >+req.params.idSubCategoria;</span>
-    const obj = <span class="cstat-no" title="statement not covered" >await subcategoriaRules.get(idEmpresa, idCategoria, idSubCategoria);</span>
-<span class="cstat-no" title="statement not covered" >    return res.json(obj);</span>
+router.get("/:idEmpresa/:idCategoria/:idSubCategoria", async (req, res) =&gt; {
+    const idEmpresa = +req.params.idEmpresa;
+    const idCategoria = +req.params.idCategoria;
+    const idSubCategoria = +req.params.idSubCategoria;
+    const obj = await subcategoriaRules.get(idEmpresa, idCategoria, idSubCategoria);
+    return res.json(obj);
 });
 &nbsp;
-router.post("/:idEmpresa/:idCategoria", <span class="fstat-no" title="function not covered" >as</span>ync (req, res) =&gt; {
-    let idEmpresa = <span class="cstat-no" title="statement not covered" >+req.params.idEmpresa;</span>
-    let idCategoria = <span class="cstat-no" title="statement not covered" >+req.params.idCategoria;</span>
-    const result = <span class="cstat-no" title="statement not covered" >await subcategoriaRules.post(req.body, idEmpresa, idCategoria);</span>
-<span class="cstat-no" title="statement not covered" >    return res.json(result);</span>
+router.post("/:idEmpresa/:idCategoria", async (req, res) =&gt; {
+    let idEmpresa = +req.params.idEmpresa;
+    let idCategoria = +req.params.idCategoria;
+    const result = await subcategoriaRules.post(req.body, idEmpresa, idCategoria);
+    return res.json(result);
 });
 &nbsp;
-router.put("/:idEmpresa/:idCategoria/:idSubCategoria", <span class="fstat-no" title="function not covered" >as</span>ync (req, res) =&gt; {
-    const idEmpresa = <span class="cstat-no" title="statement not covered" >+req.params.idEmpresa;</span>
-    const idCategoria = <span class="cstat-no" title="statement not covered" >+req.params.idCategoria;</span>
-    const idSubCategoria = <span class="cstat-no" title="statement not covered" >+req.params.idSubCategoria;</span>
-    const result = <span class="cstat-no" title="statement not covered" >await subcategoriaRules.put(req.body, idEmpresa, idCategoria, idSubCategoria);</span>
-<span class="cstat-no" title="statement not covered" >    return res.json(result);</span>
+router.put("/:idEmpresa/:idCategoria/:idSubCategoria", async (req, res) =&gt; {
+    const idEmpresa = +req.params.idEmpresa;
+    const idCategoria = +req.params.idCategoria;
+    const idSubCategoria = +req.params.idSubCategoria;
+    const result = await subcategoriaRules.put(req.body, idEmpresa, idCategoria, idSubCategoria);
+    return res.json(result);
 });
 &nbsp;
-router.delete("/:idEmpresa/:idCategoria/:idSubCategoria", <span class="fstat-no" title="function not covered" >as</span>ync (req, res) =&gt; {
-    const idEmpresa = <span class="cstat-no" title="statement not covered" >+req.params.idEmpresa;</span>
-    const idCategoria = <span class="cstat-no" title="statement not covered" >+req.params.idCategoria;</span>
-    const idSubCategoria = <span class="cstat-no" title="statement not covered" >+req.params.idSubCategoria;</span>
-    const result = <span class="cstat-no" title="statement not covered" >await subcategoriaRules.delete(idEmpresa, idCategoria, idSubCategoria);</span>
-<span class="cstat-no" title="statement not covered" >    return res.json(result);</span>
+router.delete("/:idEmpresa/:idCategoria/:idSubCategoria", async (req, res) =&gt; {
+    const idEmpresa = +req.params.idEmpresa;
+    const idCategoria = +req.params.idCategoria;
+    const idSubCategoria = +req.params.idSubCategoria;
+    const result = await subcategoriaRules.delete(idEmpresa, idCategoria, idSubCategoria);
+    return res.json(result);
 });
 &nbsp;
 module.exports = router;</pre></td></tr></table></pre>
@@ -199,7 +199,7 @@ module.exports = router;</pre></td></tr></table></pre>
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2022-11-17T16:36:38.042Z
+                at 2022-11-17T21:49:51.399Z
             </div>
         <script src="../../prettify.js"></script>
         <script>

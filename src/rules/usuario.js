@@ -63,7 +63,6 @@ module.exports = {
                            ativo = ${ativo}
                        WHERE id_usuario = ${idUsuario} 
                          and id_empresa = ${idEmpresa}`;
-            console.log(sql);
 
             db.getConn().query(sql, (err, result) => {
                 if (err) throw err;

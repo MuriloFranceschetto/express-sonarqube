@@ -27,7 +27,7 @@ module.exports = {
                     const obj = result[key];
                     arr.push(obj);
                 });
-                const res = idCategoria ? arr[0] : arr;
+                const res = idSubCategoria ? (arr[0] || null) : arr;
                 resolve(res);
             });
         });
@@ -81,7 +81,7 @@ module.exports = {
 
             db.getConn().query(sql, (err, result) => {
                 if (err) throw err;
-                resolve(`Sub-Categoria ${idCategoria} excluída com sucesso`);
+                resolve(`Sub-Categoria ${idSubCategoria} excluída com sucesso`);
             });
         });
     }

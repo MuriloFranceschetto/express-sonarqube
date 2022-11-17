@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
     <file path="C:\repositorios\express-sonarqube\tests\index.test.js">
-        <testCase name="Rota padrão Get na rota padrão do server" duration="58"/>
-        <testCase name="EMPRESA Buscar lista de empresas" duration="45"/>
-        <testCase name="EMPRESA Criar nova empresa" duration="41"/>
-        <testCase name="EMPRESA Buscar empresa por código" duration="21"/>
-        <testCase name="EMPRESA Atualizar Empresa" duration="23"/>
-        <testCase name="USUARIOS Buscar Usuários" duration="22"/>
-        <testCase name="USUARIOS Criar novo usuário" duration="20"/>
-        <testCase name="USUARIOS Buscar Usuário por código" duration="23"/>
-        <testCase name="USUARIOS Atualizar Usuário" duration="31"/>
-        <testCase name="USUARIOS Excluir usuário" duration="20"/>
-        <testCase name="EMPRESA Excluir empresa" duration="20"/>
+        <testCase name="Rota padrão Get na rota padrão do server" duration="67"/>
+        <testCase name="EMPRESA Buscar lista de empresas" duration="41"/>
+        <testCase name="EMPRESA Criar nova empresa" duration="46"/>
+        <testCase name="EMPRESA Buscar empresa por código" duration="20"/>
+        <testCase name="EMPRESA Atualizar Empresa" duration="28"/>
+        <testCase name="EMPRESA USUARIOS Buscar Usuários" duration="25"/>
+        <testCase name="EMPRESA USUARIOS Criar novo usuário" duration="24"/>
+        <testCase name="EMPRESA USUARIOS Buscar Usuário por código" duration="23"/>
+        <testCase name="EMPRESA USUARIOS Atualizar Usuário" duration="23"/>
+        <testCase name="EMPRESA USUARIOS Excluir usuário" duration="21"/>
+        <testCase name="EMPRESA CATEGORIAS Buscar categorias" duration="23"/>
+        <testCase name="EMPRESA CATEGORIAS Criar nova categoria" duration="24"/>
+        <testCase name="EMPRESA CATEGORIAS Buscar Categoria por código" duration="22"/>
+        <testCase name="EMPRESA CATEGORIAS Atualizar categoria" duration="21"/>
+        <testCase name="EMPRESA CATEGORIAS SUB-CATEGORIA Buscar sub-categorias" duration="20"/>
+        <testCase name="EMPRESA CATEGORIAS SUB-CATEGORIA Criar nova sub-categoria" duration="22"/>
+        <testCase name="EMPRESA CATEGORIAS SUB-CATEGORIA Buscar sub-categoria por código" duration="21"/>
+        <testCase name="EMPRESA CATEGORIAS SUB-CATEGORIA Atualizar sub-categoria" duration="21"/>
+        <testCase name="EMPRESA CATEGORIAS SUB-CATEGORIA Excluir sub-categoria" duration="21"/>
+        <testCase name="EMPRESA CATEGORIAS Excluir categoria" duration="23"/>
+        <testCase name="EMPRESA Excluir empresa" duration="23"/>
     </file>
 </testExecutions>
