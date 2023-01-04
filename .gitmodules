@@ -1,0 +1,6 @@
+[submodule "tests/utils-teste"]
+	path = tests/utils-teste
+	url = https://github.com/MuriloFranceschetto/utils-teste.git
+[submodule "utils/utils-teste"]
+	path = utils/utils-teste
+	url = https://github.com/MuriloFranceschetto/utils-teste.git
